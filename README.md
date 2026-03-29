@@ -1,6 +1,6 @@
-# 🎬 Animatoor - 3D Seamless Loop Animation Generator
+# 🎬 LoopForge - 3D Seamless Loop Animation Generator
 
-**Animatoor** is a high-performance web application for creating seamless looping 3D animations with advanced visual effects. Built with React, Three.js, and featuring GPU-accelerated rendering for lightning-fast performance.
+**LoopForge** is a high-performance web application for creating seamless looping 3D animations with advanced visual effects. Built with React, Three.js, and featuring GPU-accelerated rendering for lightning-fast performance.
 
 ## ✨ Features
 
@@ -49,7 +49,7 @@ The application will be available at `http://localhost:5173` (or the next availa
 ## 📦 Project Structure
 
 ```
-animatoor/
+LoopForge/
 ├── src/
 │   ├── components/
 │   │   ├── AnimatedShapes.tsx    # 3D shape animation component
@@ -100,7 +100,7 @@ animatoor/
 
 ### GPU Acceleration (`src/utils/gpuShaders.ts`)
 
-Animatoor uses WebGL 2.0 shaders for computationally intensive tasks:
+LoopForge uses WebGL 2.0 shaders for computationally intensive tasks:
 
 ```typescript
 // Automatic GPU acceleration with CPU fallback
